@@ -1,0 +1,304 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Touch:TTP224B U?
+U 1 1 5F1DE2EF
+P 5650 4650
+F 0 "U?" H 5650 5350 50  0000 C CNN
+F 1 "TTP224B" H 5650 4650 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 5650 4650 50  0001 C CNN
+F 3 "" H 5650 4650 50  0001 C CNN
+	1    5650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE2F5
+P 5650 4450
+F 0 "#PWR?" H 5650 4200 50  0001 C CNN
+F 1 "Earth" H 5650 4300 50  0001 C CNN
+F 2 "" H 5650 4450 50  0001 C CNN
+F 3 "~" H 5650 4450 50  0001 C CNN
+	1    5650 4450
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3500 2    50   ~ 0
++5V
+Text Label 5000 4450 3    50   ~ 0
++5V
+$Comp
+L Device:C C?
+U 1 1 5F1DE2FD
+P 4750 4150
+F 0 "C?" H 4750 4250 50  0000 L CNN
+F 1 "20pf" H 4700 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 4000 50  0001 C CNN
+F 3 "~" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1DE303
+P 4450 4050
+F 0 "C?" H 4450 4150 50  0000 L CNN
+F 1 "20pf" H 4400 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3900 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+	1    4450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1DE309
+P 4750 3550
+F 0 "C?" H 4750 3650 50  0000 L CNN
+F 1 "20pf" H 4700 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4788 3400 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F1DE30F
+P 4450 3650
+F 0 "C?" H 4450 3750 50  0000 L CNN
+F 1 "20pf" H 4400 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3500 50  0001 C CNN
+F 3 "~" H 4450 3650 50  0001 C CNN
+	1    4450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE315
+P 4750 3400
+F 0 "#PWR?" H 4750 3150 50  0001 C CNN
+F 1 "Earth" H 4750 3250 50  0001 C CNN
+F 2 "" H 4750 3400 50  0001 C CNN
+F 3 "~" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE31B
+P 4450 3500
+F 0 "#PWR?" H 4450 3250 50  0001 C CNN
+F 1 "Earth" H 4450 3350 50  0001 C CNN
+F 2 "" H 4450 3500 50  0001 C CNN
+F 3 "~" H 4450 3500 50  0001 C CNN
+	1    4450 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE321
+P 4450 4200
+F 0 "#PWR?" H 4450 3950 50  0001 C CNN
+F 1 "Earth" H 4450 4050 50  0001 C CNN
+F 2 "" H 4450 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE327
+P 4750 4300
+F 0 "#PWR?" H 4750 4050 50  0001 C CNN
+F 1 "Earth" H 4750 4150 50  0001 C CNN
+F 2 "" H 4750 4300 50  0001 C CNN
+F 3 "~" H 4750 4300 50  0001 C CNN
+	1    4750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3700 4750 3700
+Connection ~ 4750 3700
+Wire Wire Line
+	4750 3700 5200 3700
+Wire Wire Line
+	4200 3800 4450 3800
+Connection ~ 4450 3800
+Wire Wire Line
+	4450 3800 5200 3800
+Wire Wire Line
+	4200 3900 4450 3900
+Connection ~ 4450 3900
+Wire Wire Line
+	4450 3900 5200 3900
+Wire Wire Line
+	4200 4000 4750 4000
+Connection ~ 4750 4000
+Wire Wire Line
+	4750 4000 5200 4000
+Wire Wire Line
+	6100 3700 6200 3700
+Wire Wire Line
+	6100 3800 6200 3800
+Wire Wire Line
+	6100 3900 6200 3900
+Wire Wire Line
+	6100 4000 6200 4000
+Text Label 6200 3800 0    50   ~ 0
+TPQ1
+Text Label 6200 3700 0    50   ~ 0
+TPQ0
+Text Label 6200 3900 0    50   ~ 0
+TPQ2
+Text Label 6200 4000 0    50   ~ 0
+TPQ3
+Wire Wire Line
+	6300 4100 6300 4200
+Connection ~ 6300 4200
+Wire Wire Line
+	6300 4200 6300 4300
+$Comp
+L power:Earth #PWR?
+U 1 1 5F1DE344
+P 6300 4200
+F 0 "#PWR?" H 6300 3950 50  0001 C CNN
+F 1 "Earth" H 6300 4050 50  0001 C CNN
+F 2 "" H 6300 4200 50  0001 C CNN
+F 3 "~" H 6300 4200 50  0001 C CNN
+	1    6300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE34A
+P 5100 4100
+F 0 "JP?" H 5100 4150 50  0000 C CNN
+F 1 "Jp" H 5100 4194 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5100 4100 50  0001 C CNN
+F 3 "~" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4100 5000 4200
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE351
+P 5100 4200
+F 0 "JP?" H 5100 4250 50  0000 C CNN
+F 1 "Jp" H 5100 4294 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5100 4200 50  0001 C CNN
+F 3 "~" H 5100 4200 50  0001 C CNN
+	1    5100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE357
+P 5100 4300
+F 0 "JP?" H 5100 4350 50  0000 C CNN
+F 1 "Jp" H 5100 4394 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5100 4300 50  0001 C CNN
+F 3 "~" H 5100 4300 50  0001 C CNN
+	1    5100 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 4200
+Wire Wire Line
+	5000 4200 5000 4300
+Connection ~ 5000 4300
+Wire Wire Line
+	5000 4300 5000 4450
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE361
+P 6200 4200
+F 0 "JP?" H 6200 4250 50  0000 C CNN
+F 1 "Jp" H 6200 4294 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE367
+P 6200 4300
+F 0 "JP?" H 6200 4350 50  0000 C CNN
+F 1 "Jp" H 6200 4394 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 4300 50  0001 C CNN
+F 3 "~" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP?
+U 1 1 5F1DE36D
+P 6200 4100
+F 0 "JP?" H 6200 4150 50  0000 C CNN
+F 1 "Jp" H 6200 4194 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6200 4100 50  0001 C CNN
+F 3 "~" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F1DE373
+P 4100 3700
+F 0 "JP?" H 3900 3700 50  0000 C CNN
+F 1 "Jp" H 4200 3750 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4100 3700 50  0001 C CNN
+F 3 "~" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F1DE379
+P 4100 3800
+F 0 "JP?" H 3900 3800 50  0000 C CNN
+F 1 "Jp" H 4200 3850 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4100 3800 50  0001 C CNN
+F 3 "~" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F1DE37F
+P 4100 3900
+F 0 "JP?" H 3900 3900 50  0000 C CNN
+F 1 "Jp" H 4200 3950 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4100 3900 50  0001 C CNN
+F 3 "~" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 5F1DE385
+P 4100 4000
+F 0 "JP?" H 3900 4000 50  0000 C CNN
+F 1 "Jp" H 4200 4050 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 4100 4000 50  0001 C CNN
+F 3 "~" H 4100 4000 50  0001 C CNN
+	1    4100 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4000 3700
+NoConn ~ 4000 3800
+NoConn ~ 4000 3900
+NoConn ~ 4000 4000
+$EndSCHEMATC
